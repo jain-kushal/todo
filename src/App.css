@@ -1,33 +1,44 @@
-.App {
-  text-align: center;
+html {
+	min-height: 100%;
+	position: relative;
+}
+body {
+	background-image: url('http://orig00.deviantart.net/acb6/f/2013/303/7/6/gif___running_through_the_rain_by_turst67-d6scius.gif');
+	/* background-image: url('http://hdgifs.com/wp-content/uploads/2017/04/water-drops.gif'); */
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* background-position: 50%, 50%; */
+}
+.container {
+	margin-bottom: 3em;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.Footer {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	line-height: 3em;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	bottom: 0;
+	left: 0;
+	font-size: 1.5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Footer i {
+	font-size: 1.25em;
+	color: red;
 }
 
-.App-link {
-  color: #61dafb;
+i {
+	vertical-align: sub;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer a {
+	color: white;
+}
+
+.Footer a:hover {
+	color: #06575b;
 }

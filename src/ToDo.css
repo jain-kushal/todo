@@ -1,0 +1,83 @@
+.ToDo-Display {
+	display: flex;
+	justify-content: space-between;
+	color: #06575b;
+	margin: 5px 0;
+	font-size: 1.3em;
+	padding: 10.5px 30px;
+	background-color: #c3dee5;
+}
+
+.ToDo-DisplayName {
+	width: 70%;
+	text-align: left;
+	word-wrap: break-word;
+	cursor: pointer;
+	vertical-align: sub;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: #66a4ac;
+}
+.ToDo-DisplayButtons button {
+	border: none;
+	padding: 0 5px;
+	background-color: inherit;
+	margin: 0 3px;
+}
+
+.ToDo-DisplayButtons i {
+	font-size: 1.7rem;
+}
+@media (max-width: 400px) {
+	.ToDo-DisplayButtons i {
+		font-size: 1.5em;
+	}
+}
+@media (min-width: 401px) and (max-width: 875px) {
+	.ToDo-DisplayButtons i {
+		font-size: 1.4em;
+	}
+}
+
+.ToDo-form {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #c3dee5;
+	padding: 11px 0;
+	margin: 5px 0;
+}
+
+.ToDo-formInput {
+	width: 70%;
+}
+.ToDo-formInput input {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #06575b;
+	font-size: 20px;
+	padding: 0 5px;
+}
+
+.ToDo-formButton {
+	width: 15%;
+}
+.ToDo-formButton button {
+	width: 100%;
+	height: 31px;
+	padding: 4px 0px;
+	font-size: 15px;
+	background-color: #06575b;
+	border: 1px white solid;
+	color: white;
+}
+
+button:focus {
+	outline: none;
+	border: none;
+}
+
+input:focus {
+	outline: none;
+}
