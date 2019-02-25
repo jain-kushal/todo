@@ -10,7 +10,8 @@ function App() {
 			</div>
 			<footer role="contentinfo" className="Footer">
 				<p>
-					Made with <i className="material-icons">favorite</i> for React by 
+					Made with <i className="material-icons">favorite</i> for React by
+					&nbsp;
 					<a href="https://www.kushaljain.com">
 						Kushal Jain
 					</a>
