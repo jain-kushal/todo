@@ -12,7 +12,7 @@ function App() {
 				<p>
 					Made with <i className="material-icons">favorite</i> for React by &nbsp;
 					<a href="https://www.kushaljain.com">
-						<em>Wicked Whitehawk</em>
+						<em>Kushal Jain</em>
 					</a>
 				</p>
 			</footer>
